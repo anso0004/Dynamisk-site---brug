@@ -1,0 +1,14 @@
+.produkter {
+  display: flex;
+  gap: 5%;
+  justify-content: start;
+}
+
+.produkt_img {
+  width: 60%;
+}
+
+.produkt_div {
+  display: flex;
+  justify-content: start;
+}

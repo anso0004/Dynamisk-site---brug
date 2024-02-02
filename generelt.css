@@ -1,0 +1,76 @@
+/***********************************  RESET + BASE  ***********************************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  /* max-width: 1200px; */
+  background-color: #e4e4da;
+}
+
+main {
+  overflow: hidden;
+  background-color: #e4e4da;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+nav,
+a,
+label,
+button,
+option {
+  font-family: "Arsenal", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.r_txt {
+  transform: scaleX(-1);
+  display: inline-block;
+  color: rgb(213, 22, 12);
+}
+
+/********** HEADER ********/
+header {
+  /* position: sticky; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+header a {
+  text-decoration: none;
+  color: #493b34;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  gap: 2rem;
+  overflow-x: auto;
+}
+
+/********** Brødkrummesti ********/
+.breadcrumbs {
+  margin-bottom: 10px;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: rgb(111, 97, 90);
+}

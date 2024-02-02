@@ -1,0 +1,81 @@
+.produkter_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  position: relative;
+}
+
+.knap_koeb {
+  text-decoration: none;
+  padding: 5%;
+  margin-top: 2%;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.knap_koeb_div {
+  background-color: rgb(111, 97, 90);
+  text-decoration: none;
+  padding: 5%;
+  margin-top: 2%;
+  color: white;
+  text-align: center;
+}
+
+.udsolgt {
+  opacity: 50%;
+}
+
+/* .img-wrap {
+  position: relative;
+} */
+
+.produkter_image_container {
+  position: relative;
+}
+
+.udsolgt-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(111, 97, 90);
+  padding: 16px;
+  height: 1rem;
+  color: white;
+  font-family: "Arsenal", sans-serif;
+  line-height: 0;
+}
+
+.udsolgt-tag p {
+  line-height: 0;
+  margin: 0;
+}
+
+.sale-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(213, 22, 12);
+  padding: 16px;
+  height: 1rem;
+  color: white;
+  font-family: "Arsenal", sans-serif;
+  line-height: 0;
+}
+.sale-tag p {
+  line-height: 0;
+  margin: 0;
+  color: white;
+}
+
+.price_sale {
+  text-decoration: line-through;
+  color: rgb(213, 22, 12);
+}
+
+.pris_div {
+  display: flex;
+  /* line-height: 0; */
+  gap: 5%;
+  margin: 0;
+}

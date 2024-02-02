@@ -1,0 +1,13 @@
+.categorylist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  font-size: 1.2rem;
+}
+
+.categorylist a {
+  text-decoration: none;
+  padding: 1.5em;
+  color: white;
+  background-color: rgb(111, 97, 90);
+}
