@@ -1,13 +1,22 @@
-.categorylist {
+ol {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
-  font-size: 1.2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  gap: 50px;
 }
 
-.categorylist a {
+ol a {
   text-decoration: none;
   padding: 1.5em;
   color: white;
   background-color: rgb(111, 97, 90);
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  list-style: none;
 }

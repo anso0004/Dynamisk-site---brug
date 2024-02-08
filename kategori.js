@@ -1,5 +1,3 @@
-// window.addEventListener("DOMContentLoaded", init);
-
 const urlParams = new URLSearchParams(window.location.search);
 console.log("urlParams", urlParams);
 const kategori = urlParams.get("category");
@@ -20,5 +18,3 @@ function showCategory(category) {
   categoryClone.querySelector("a").href = `produktliste.html?category=${category.category}`;
   document.querySelector(".lettergroup ol").appendChild(categoryClone);
 }
-
-// init();

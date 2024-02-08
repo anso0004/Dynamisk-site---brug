@@ -25,9 +25,6 @@ function showProdukt(produktJSON) {
   document.querySelector(".brand").textContent = produktJSON.brandname;
   document.querySelector(".artikeltype").textContent = produktJSON.articletype;
   document.querySelector(".pris").textContent = produktJSON.price;
-  //
-  //document.querySelector("a").href = `produkt.html?id=${produktJSON.id}`;
-  //
   document.querySelector(".produkt_img").src = `https://kea-alt-del.dk/t7/images/webp/640/${id}.webp`;
 }
 
