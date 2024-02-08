@@ -33,10 +33,8 @@
             <span>Produkter</span>
         </div>
 
-        <div class="produkter_container">
-            <template class="produkter_template">
 
-                <!-- <article>
+        <!-- <article>
                 <div class="img-wrap">
                     <img src="img/1525.webp" alt="1 billede">
                 </div>
@@ -81,22 +79,34 @@
                 <div class="knap_koeb_div">
                     <a class="knap_koeb" href="produkt.html">Køb her</a>
                 </div>
+
+                <div class="udsolgt-tag">
+                    <p>Udsolgt</p>
+                </div>
+                <div class="sale-tag">
+                    <p>50%</p>
+                </div>
             </article> -->
+
+        <div class="produkter_container">
+            <template class="produkter_template">
                 <article class="produkter_article">
                     <div class="produkter_image_container">
-                        <img src="img/1531.webp" alt="2 billede" class="udsolgt">
-                        <div class="udsolgt-tag">
-                            <p>Udsolgt</p>
-                        </div>
-                        <div class="sale-tag">
-                            <p>50%</p>
-                        </div>
+                        <img src="img/1531.webp" alt="2 billede" class="image_container">
+                        <p class="udsolgt-tag skjul">Udsolgt</p>
+
+
+                        <p class="sale-tag skjul"><span class="beer_abv_data">5.5</span>%</p>
+                        <!-- <p class="sale-tag">50%</p> -->
                     </div>
                     <h2 class="produkter_overskrift">Grey Solid Round Neck T-Shirt</h2>
                     <h3 class="produkter_sub_overskrift">T-shirt | Puma</h3>
                     <div class="pris_div">
-                        <p class="price_sale">DKK 400,-</p>
-                        <p class="price">DKK 200,-</p>
+                        <p class="price_normal">500 kr</p>
+                        <p class="price_before skjul">DKK 200,-</p>
+                        <p class="price_sale skjul">DKK 400,-</p>
+
+
                     </div>
                     <div class="knap_koeb_div">
                         <a class="knap_koeb" href="produkt.html">Køb her</a>
@@ -109,7 +119,7 @@
     <footer>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="produktliste.js"></script>
 </body>
 
 </html>

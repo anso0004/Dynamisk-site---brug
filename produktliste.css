@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 25px;
   position: relative;
+  margin: 5%;
 }
 
 .knap_koeb {
@@ -24,6 +25,10 @@
 
 .udsolgt {
   opacity: 50%;
+}
+
+.skjul {
+  display: none;
 }
 
 /* .img-wrap {
@@ -49,6 +54,10 @@
 .udsolgt-tag p {
   line-height: 0;
   margin: 0;
+}
+
+.produkter_article.strong {
+  background-color: rgb(237, 221, 217);
 }
 
 .sale-tag {
